@@ -67,6 +67,6 @@ def write_poem(train = False, lines = 5):
 	open_file.close()
 	writer.generate(lines)
 
-write_poem(True, 10)
+write_poem(False, 10)
 
 
